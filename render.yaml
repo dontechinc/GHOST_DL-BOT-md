@@ -3,7 +3,7 @@ services:
     name: jarvis-md
     env: docker
     branch: main
-    repo: https://github.com/Loki-Xer/jarvis-md.git
+    repo: https://github.com/dontechinc/GHOST_DL-BOT-md/.git
     dockerfilePath: Dockerfile
     plan: free
     autoDeploy: false

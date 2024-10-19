@@ -4,9 +4,9 @@ jarvis md is Multi Device whatsapp bot
 
 ### SETUP GHOST_DL 🐛 BOT
 
-1. Scan the QR code
+1.  Pair or Scan the QR code
     <br>
-<a href='https://qr-dnpk.onrender.com/' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://ghost-dl-bot.onrender.com/' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 #### DEPLOY TO HEROKU 
 

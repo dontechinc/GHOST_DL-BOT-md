@@ -1,6 +1,9 @@
 #### GHOST_DL 🐛 BOT MD WHATSAPP BOT
-jarvis md is Multi Device whatsapp bot
+GHOST_DL 🐛 BOT is Multi Device whatsapp bot
 ***
+
+
+<img align="right" alt="Coding" width="403333333333" src="https://raw.githubusercontent.com/AiDarkEzio/AiDarkEzio/main/img/ezgif.com-gif-maker.gif" alt="aidarkezio" /></p>
 
 ### SETUP GHOST_DL 🐛 BOT
 

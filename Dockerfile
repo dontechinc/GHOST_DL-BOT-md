@@ -1,5 +1,23 @@
-FROM quay.io/loki-xer/jarvis-md:latest
-RUN git clone https://github.com/Loki-Xer/Jarvis-md /root/Jarvis-md/
-WORKDIR /root/Jarvis-md/
-RUN yarn install --network-concurrency 1
-CMD ["npm", "start"]
+
+FROM node:lts-buster
+
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
+  
+RUN gitclone https://github.com/DeeCeeXxx/Queen_Anita-V3
+  
+
+COPY package.json .
+
+RUN npm install && npm install qrcode-terminal
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm start"]
